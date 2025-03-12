@@ -6,7 +6,7 @@ from langchain_groq import ChatGroq
 from langchain.schema import SystemMessage, AIMessage, HumanMessage
 
 # Initialize the model
-model = ChatGroq(model="llama-3.3-70b-versatile", groq_api_key="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")
+model = ChatGroq(model="llama-3.3-70b-versatile", groq_api_key="")
 
 class AIChatbotWidget(ctk.CTk):
     def __init__(self):
